@@ -8,7 +8,7 @@ import TeamsPage from '../../components/about-page-components/team-components/te
 function About() {
 
     return (
-        <div className="body">
+        <div className="about-body header-body">
             <Header />
             <motion.div
                 initial={{ opacity: 0 }}
@@ -27,8 +27,6 @@ function About() {
             <div className='header-body'>
                 <TeamsPage />
             </div>
-
-
         </div >
     );
 }

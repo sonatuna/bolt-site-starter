@@ -1,26 +1,39 @@
-import React from 'react';
-//import logo from "../../images/logo/bolt.png"
+import styles from "./css/team-page.css";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import logo from "../../../images/ubc bolt dog copy.png"
+import marcuspfp from "../../../images/marcuspfp.jpg"
 
-function Profile() {
-  return() => {
-    // Define your profile picture URL
-    // const profilePictureURL = ''; // Replace with your image URL
-    // Define the text to display
-    const textLine2 = 'Developer';
+// needs to take name, picture, and title as props
+// display the card with the picture as the logo, and the name and title following it
 
-    return (
-      <div className="profile-picture-container">
-        <h1>Happy</h1>
-        {/* <div className="circle-image">
-          <img src={logo} alt="Profile" />
-        </div>
-        <div className="text">
-          <div>Hello there</div>
-          <div>{textLine2}</div>
-        </div> */}
-      </div>
-    );
+function Profile(props) {
+
+  const IMG = (pfp) => {
+    return require(`../../../images/${pfp}`)
   }
+
+  return (
+    <motion.div
+    className="profile-holder"
+      whileHover={{ scale: 1.09 }}
+      onHoverStart={e => { }}
+      onHoverEnd={e => { }}
+    >
+        <div className="profile-card">
+          <div className="profile-icon">
+            <div className="circle-background">
+            <img className="circle-image" src={IMG(props.profilepic)} alt={props.name} />
+            </div>
+          </div>
+          <div className="text">
+            <div className="profile-name">{props.name}</div>
+            <div className="profile-title">{props.title}</div>
+          </div>
+        </div>
+    </motion.div>
+  );
 }
 
 export default Profile;
+

@@ -35,12 +35,8 @@ export default function TeamsPage() {
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.2 }}
             className="team-window"
-            // below is displaying the icon for the selected tab {selectedTab ? selectedTab.icon : "😋"}
-            // need to figure out how to display multiple of the cards i have now
-            // maybe keep an array of the team information and map it?
+            // {selectedTab ? selectedTab.icon : "😋"} * old code
           >
-            <TeamDisplay teamName={selectedTab.label} />
-            <TeamDisplay teamName={selectedTab.label} />
             <TeamDisplay teamName={selectedTab.label} />
           </motion.div> 
         </AnimatePresence> 

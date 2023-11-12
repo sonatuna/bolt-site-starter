@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 export const allTeams = [
-  { icon: "1️⃣", label: "Team 1" },
-  { icon: "2️⃣", label: "Team 2" },
-  { icon: "👾", label: "Development" },
-  { icon: "📢", label: "Marketing" },
-  { icon: "💵", label: "Finance" },
+  { icon: "", label: "Team 1" },
+  { icon: "", label: "Team 2" },
+  { icon: "", label: "Development" },
+  { icon: "", label: "Marketing" },
+  { icon: "", label: "Finance" },
 ];
 
 function TeamList() {

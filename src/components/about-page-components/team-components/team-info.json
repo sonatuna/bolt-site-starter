@@ -1,0 +1,85 @@
+{
+    "teams": [
+      {
+        "team_name": "Team 1",
+        "executives": [
+          {
+            "name": "Bradley Wong",
+            "title": "Vice-President",
+            "profilepic": "ubc bolt dog copy.png"
+          },
+          {
+            "name": "Bolt",
+            "title": "Head Mascot",
+            "profilepic": "ubc bolt dog copy.png"
+          }
+        ]
+      },
+      {
+        "team_name": "Team 2",
+        "executives": [
+          {
+            "name": "Antarip Kashyap",
+            "title": "Vice-President",
+            "profilepic": "ubc bolt dog copy.png"
+          },
+          {
+            "name": "Bob Wilson",
+            "title": "CFO",
+            "profilepic": "ubc bolt dog copy.png"
+          }
+        ]
+      },
+      {
+        "team_name": "Development",
+        "executives": [
+          {
+            "name": "Tina Yu",
+            "title": "Senior Developer",
+            "profilepic": "ubc bolt dog copy.png"
+          },
+          {
+            "name": "Marcus Kam",
+            "title": "Backend Director",
+            "profilepic": "marcuspfp.jpg"
+          },
+          {
+            "name": "Giju Kim",
+            "title": "Junior Developer",
+            "profilepic": "ubc bolt dog copy.png"
+          }
+        ]
+      },
+      {
+        "team_name": "Marketing",
+        "executives": [
+          {
+            "name": "Margo Bel",
+            "title": "Design & Strategy Marketing Director",
+            "profilepic": "ubc bolt dog copy.png"
+          },
+          {
+            "name": "Andrew",
+            "title": "Strategy Marketing Executive",
+            "profilepic": "ubc bolt dog copy.png"
+          }
+        ]
+      },
+      {
+        "team_name": "Finance",
+        "executives": [
+          {
+            "name": "Kyle Gomez",
+            "title": "Finance Executive ",
+            "profilepic": "ubc bolt dog copy.png"
+          },
+          { 
+            "name": "Sophia White",
+            "title": "Sales Director",
+            "profilepic": "ubc bolt dog copy.png"
+          }
+        ]
+      }
+    ]
+  }
+  
