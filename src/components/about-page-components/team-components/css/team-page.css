@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .window {
@@ -53,7 +54,7 @@
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
 }
 
-nav {
+.card-nav {
   background: #fdfdfd;
   padding: 5px 5px 0;
   border-radius: 10px;
@@ -74,7 +75,7 @@ nav {
   width: 100%;
 }
 
-main {
+.main-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,8 +84,8 @@ main {
   user-select: none;
 }
 
-ul,
-li {
+.card-ul,
+.card-li {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -95,12 +96,12 @@ li {
   font-family: 'Outfit', sans-serif;
 }
 
-ul {
+.card-ul {
   display: flex;
   width: 100%;
 }
 
-li {
+.card-li {
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -144,7 +145,7 @@ li.selected {
   background-color: white;
 }
 
-li button {
+.card-li button {
   width: 20px;
   height: 20px;
   border: 0;

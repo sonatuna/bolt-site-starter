@@ -9,12 +9,12 @@ export default function TeamsPage() {
 
   return (
     <div className="header-body window">
-      <nav>
-        <ul>
+      <nav className="card-nav">
+        <ul className="card-ul">
           {allTeams.map((item) => (
-            <li
+            <li 
               key={item.label}
-              className={item === selectedTab ? "selected" : ""}
+              className={`card-li ${item === selectedTab ? "selected" : ""}`}
               onClick={() => setSelectedTab(item)}
               //  below is displaying the icon next to the name
             >
@@ -26,7 +26,7 @@ export default function TeamsPage() {
           ))}
         </ul>
       </nav>
-      <main>
+      <main className="main-card">
         <AnimatePresence mode="wait">
           <motion.div // the animation for the displayed icon
             key={selectedTab ? selectedTab.label : "empty"}
