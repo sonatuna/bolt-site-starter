@@ -6,12 +6,32 @@
           {
             "name": "Bradley Wong",
             "title": "Vice-President",
-            "profilepic": "ubc bolt dog copy.png"
+            "profilepic": "Bradley.jpg"
           },
           {
-            "name": "Bolt",
-            "title": "Head Mascot",
-            "profilepic": "ubc bolt dog copy.png"
+            "name": "Angie Sun",
+            "title": "Events Director",
+            "profilepic": "Angie Sun Picture.JPG"
+          },
+          {
+            "name": "Berke Ozgur",
+            "title": "Events Director",
+            "profilepic": "Berke.png"
+          },
+          {
+            "name": "Lindy Guan",
+            "title": "CR Director",
+            "profilepic": "Lindy.jpg"
+          },
+          {
+            "name": "Claire Li",
+            "title": "Events Executive",
+            "profilepic": "Claire 1.png"
+          },
+          {
+            "name": "Andrew Shigatomi",
+            "title": "CR Executive",
+            "profilepic": "Andrew_Shigetomi.png"
           }
         ]
       },
@@ -21,12 +41,37 @@
           {
             "name": "Antarip Kashyap",
             "title": "Vice-President",
-            "profilepic": "ubc bolt dog copy.png"
+            "profilepic": "Antarip.jpg"
           },
           {
-            "name": "Bob Wilson",
-            "title": "CFO",
-            "profilepic": "ubc bolt dog copy.png"
+            "name": "Nav Thukral",
+            "title": "CR Director",
+            "profilepic": "Nav.jpg"
+          },
+          {
+            "name": "Rania Salimi",
+            "title": "Events Director",
+            "profilepic": "Rania bolt .jpg"
+          },
+          {
+            "name": "Duncan Harrop",
+            "title": "Advising Director",
+            "profilepic": "Duncan.JPG"
+          },
+          {
+            "name": "Stallone Pinto",
+            "title": "Advising Director",
+            "profilepic": "Stallone.jpg"
+          },
+          {
+            "name": "Rohan Patel",
+            "title": "Events Executive",
+            "profilepic": "Rohan.png"
+          },
+          {
+            "name": "Sejal Kurrha",
+            "title": "CR Executive",
+            "profilepic": "Sejal.png"
           }
         ]
       },
@@ -36,7 +81,7 @@
           {
             "name": "Tina Yu",
             "title": "Senior Developer",
-            "profilepic": "ubc bolt dog copy.png"
+            "profilepic": "Tina.png"
           },
           {
             "name": "Marcus Kam",
@@ -46,7 +91,7 @@
           {
             "name": "Giju Kim",
             "title": "Junior Developer",
-            "profilepic": "ubc bolt dog copy.png"
+            "profilepic": "Giju 1.png"
           }
         ]
       },
@@ -56,12 +101,22 @@
           {
             "name": "Margo Bel",
             "title": "Design & Strategy Marketing Director",
-            "profilepic": "ubc bolt dog copy.png"
+            "profilepic": "Margo.png"
           },
           {
             "name": "Andrew",
-            "title": "Strategy Marketing Executive",
-            "profilepic": "ubc bolt dog copy.png"
+            "title": "Marketing Executive",
+            "profilepic": "Andrew.png"
+          },
+          {
+            "name": "Mina Hu",
+            "title": "Strategy Marketing Director",
+            "profilepic": "Mina.jpg"
+          },
+          {
+            "name": "Anna Luo",
+            "title": "Design Marketing Director",
+            "profilepic": "Anna.jpg"
           }
         ]
       },
@@ -70,13 +125,13 @@
         "executives": [
           {
             "name": "Kyle Gomez",
-            "title": "Finance Executive ",
+            "title": "Finance Executive",
             "profilepic": "ubc bolt dog copy.png"
           },
           { 
-            "name": "Sophia White",
-            "title": "Sales Director",
-            "profilepic": "ubc bolt dog copy.png"
+            "name": "Aseem Arora",
+            "title": "Treasurer",
+            "profilepic": "Aseem.jpg"
           }
         ]
       }

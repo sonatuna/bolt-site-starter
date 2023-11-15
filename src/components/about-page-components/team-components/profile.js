@@ -1,8 +1,6 @@
 import styles from "./css/team-page.css";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "../../../images/ubc bolt dog copy.png"
-import marcuspfp from "../../../images/marcuspfp.jpg"
 
 // needs to take name, picture, and title as props
 // display the card with the picture as the logo, and the name and title following it
@@ -10,7 +8,7 @@ import marcuspfp from "../../../images/marcuspfp.jpg"
 function Profile(props) {
 
   const IMG = (pfp) => {
-    return require(`../../../images/${pfp}`)
+    return require(`../../../images/bolt pfp/${pfp}`)
   }
 
   return (

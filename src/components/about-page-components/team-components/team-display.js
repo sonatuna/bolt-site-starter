@@ -13,7 +13,7 @@ function TeamDisplay(props) {
     const executives = specificTeam.executives;
 
     return (
-      <div className="windows"> 
+      <div className={'windows ' + teamName}> 
         {specificTeam.executives.map((executive, index) => (
           <Profile key={index} profilepic={executive.profilepic} name={executive.name} title={executive.title} />
         ))}
