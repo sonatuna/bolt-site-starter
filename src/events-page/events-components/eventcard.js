@@ -8,7 +8,7 @@ export default function ActionAreaCard(props) {
   return (
     <div className="event-card">
       <Card sx={{ maxWidth: 345 }}>
-        <CardMedia component="img" height="140" image="bootcamp.png" />
+        <CardMedia component="img" height="140" image={props.img} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {props.name}

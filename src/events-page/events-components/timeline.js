@@ -5,7 +5,6 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import eventcard from "./eventcard";
 
 export default function AlternateTimeline() {
     return (
@@ -17,7 +16,7 @@ export default function AlternateTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <h1>september </h1>
-            <EventCard name="event 1" desc="description 1"/>
+            <EventCard name="event 1" desc="description 1" img="bolt.png"/>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -27,7 +26,7 @@ export default function AlternateTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <h1>october </h1>
-            <EventCard name="event 2" desc="description 2"/>
+            <EventCard name="event 2" desc="description 2" img="bolt.png"/>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -37,7 +36,7 @@ export default function AlternateTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <h1>november </h1>
-            <EventCard name="event 3" desc="description 3"/>
+            <EventCard name="event 3" desc="description 3" img="bolt.png"/>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -46,7 +45,7 @@ export default function AlternateTimeline() {
           </TimelineSeparator>
           <TimelineContent>
             <h1>december </h1>
-            <EventCard name="event 4" desc="description 4"/>
+            <EventCard name="event 4" desc="description 4" img="bolt.png"/>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
